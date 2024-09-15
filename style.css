@@ -116,7 +116,7 @@ main {
 
 .hero-text p {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
 .hero-text button {
@@ -131,4 +131,117 @@ main {
 
 .hero-img {
     flex: 0 0 50%;
+}
+
+/* FEATURES SECTION */
+
+.features-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 120px;
+    padding-bottom: 90px;
+    width: 860px;
+    margin: 0 auto;
+    line-height: 1.3;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 0 0 25%;
+    padding: 0 16px;
+}
+
+.feature img {
+    width: 150px;
+    height: 150px;
+    border: #3882f6 4px solid;
+    border-radius: 8px;
+}
+
+.feature h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.feature p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    line-height: 1.3;
+}
+
+.quote-section blockquote {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    width: 740px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote-section cite {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* CTA SECTION */
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    line-height: 1.3;
+}
+
+.cta-section div {
+    background-color: #3882f6;
+    padding: 40px;
+    border-radius: 8px;
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-section div.cta-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    color: #f9faf8;
+    flex: 1 1 70%;
+    padding: 0px;
+}
+
+.cta-section div .button {
+    flex: 1 1 30%;
+}
+
+.cta-section div .button button {
+    background-color: #3882f6;
+    border: #f9faf8 2px solid;
+    border-radius: 8px;
+    color: #f9faf8;
+    padding: 12px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    
 }
