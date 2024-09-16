@@ -131,6 +131,9 @@ main {
 
 .hero-img {
     flex: 0 0 50%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 /* FEATURES SECTION */
@@ -244,6 +247,16 @@ main {
     color: #f9faf8;
     padding: 12px 32px;
     font-size: 18px;
-    font-weight: 700;
-    
+    font-weight: 700;   
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
